@@ -149,11 +149,11 @@
 
 .personal-details p {
     margin-left: 1.5rem;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 110%;
     font-weight: 500;
     font-family: var(--primaryFont);
-    width: 45%;
+    width: 80%;
     word-break: break-word;
 }
 
@@ -233,7 +233,7 @@
     }
     .contacts-details {
         padding-left: 0rem;
-        padding: 1rem;
+        /* padding: 1rem; */
         align-items: center;
         margin-top: 2rem;
     }
@@ -262,6 +262,19 @@
         margin-bottom: 20px;
     }
 }
+@media  screen and (min-width:425px){
+
+.personal-details p {
+    margin-left: 1.5rem;
+    font-size: 16px;
+    line-height: 110%;
+    font-weight: 500;
+    font-family: var(--primaryFont);
+    width: 110%;
+    /* word-break: break-word; */
+}
+    
+}
 
 @media screen and (max-width: 400px) {
     .contacts-details {
@@ -279,6 +292,7 @@
         padding-left: 0rem;
         padding: 0rem;
     }
+    
 }
 
 

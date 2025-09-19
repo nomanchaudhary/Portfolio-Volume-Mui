@@ -173,7 +173,7 @@ function Landing() {
                         className='lcr--content'
                         style={{ color: theme.tertiary }}
                     >
-                        <h6>{headerData.title}</h6>
+                        <h6 style={{ marginTop: '50px' }}>{headerData.title}</h6>
                         <h1>{headerData.name}</h1>
                         <p>{headerData.desciption}</p>
 
@@ -181,7 +181,7 @@ function Landing() {
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
-                                    download='resume'
+                                    download='Muhammad Noman.pdf'
                                     target='_blank'
                                     rel='noreferrer'
                                 >
