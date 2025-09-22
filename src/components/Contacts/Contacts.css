@@ -153,7 +153,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: start !important;
   gap: 1.5rem;
   margin-top: 4rem;
 }
@@ -198,6 +198,9 @@
     font-size: 3rem;
     margin-bottom: 30px;
   }
+  .socialmedia-icons {
+    justify-content: center !important;  /* center for small screens */
+  }
   .contacts--container {
     padding: 2rem;
     margin-top: 0rem;
@@ -218,7 +221,7 @@
     margin-bottom: 0.45rem;
   }
   .contacts-form form {
-    align-items: flex-end;
+    align-items: center;
   }
   .contacts-details {
     padding-left: 0rem;
@@ -279,6 +282,18 @@
   .contacts-details {
     padding-left: 0rem;
     padding: 0rem;
+  }
+  .contacts-form form {
+    align-items: center;
+  }
+  .socialmedia-icons {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    margin-top: 4rem;
   }
 }
 

@@ -279,14 +279,8 @@ function Contacts() {
 
             <div
               className="socialmedia-icons"
-              style={{
-                display: "flex",
-                justifyContent: "start",
-                flexWrap: "wrap",
-                width: "100%",
-              }}
             >
-              {socialsData.twitter && (
+              {/* {socialsData.twitter && (
                 <a
                   href={socialsData.twitter}
                   target="_blank"
@@ -295,7 +289,7 @@ function Contacts() {
                 >
                   <FaTwitter aria-label="Twitter" />
                 </a>
-              )}
+              )} */}
               {socialsData.github && (
                 <a
                   href={socialsData.github}
